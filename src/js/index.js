@@ -10,9 +10,11 @@ import Home from "./component/home.jsx";
 import Button from "./component/button.jsx";
 //render your react application
 
+
+
 setInterval(()=>{
     ReactDOM.render(<Home/> , document.querySelector("#app"));
-},1000)
+},100)
 
 
 

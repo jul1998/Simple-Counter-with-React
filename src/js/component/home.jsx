@@ -14,12 +14,12 @@ let count2 = 0
 let count1 = 0
 const Home = () => {
 
-	let second6 = Math.floor(count6++/1)
-	let second5 = Math.floor(count5++/10)
-	let second4 = Math.floor(count4++/100)
-    let second3 = Math.floor(count3++/1000)
-    let second2 = Math.floor(count2++/10000)
-    let second1 = Math.floor(count1++/10000)
+	let second6 = Math.floor((count6++/1) % 10)
+	let second5 = Math.floor((count5++/10) % 10)
+	let second4 = Math.floor((count4++/100)% 10)
+    let second3 = Math.floor((count3++/1000)% 10)
+    let second2 = Math.floor((count2++/10000)% 10)
+    let second1 = Math.floor((count1++/100000)%10)
 	
 	return (
 		
